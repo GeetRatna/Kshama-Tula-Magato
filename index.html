@@ -120,13 +120,10 @@
             width: 90px;
             height: 90px;
             object-fit: cover;
-            background: #d4af37;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 15px;
-            color: #fff;
-            font-size: 2.5rem;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
         }
         
         .breadcrumb {
@@ -444,13 +441,6 @@
             object-fit: cover;
             border-radius: 50%;
             border: 2px solid var(--accent);
-            background: #d4af37;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 15px;
-            color: #fff;
-            font-size: 2rem;
         }
         
         .footer-title {
@@ -857,6 +847,32 @@
             color: #666;
             line-height: 1.6;
         }
+        
+        /* Indexing Fix Notice */
+        .indexing-fix {
+            background: #e6f7e6;
+            border-left: 4px solid #4CAF50;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+        
+        .indexing-fix h3 {
+            color: #2E7D32;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+        
+        .indexing-fix ul {
+            padding-left: 25px;
+            margin: 15px 0;
+        }
+        
+        .indexing-fix li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
     </style>
     
     <!-- Structured Data for Google -->
@@ -923,8 +939,9 @@
 <body>
     <header>
         <div class="container">
-            <img src="https://yt3.googleusercontent.com/s2WhsqUUbRa1jh8S99_MR_l6fC68GqcL9LpSt-cwqrxzrLAd6R8gKVn2mOYXJ6JhJimWzW6X=s160-c-k-c0x00ffffff-no-rj" alt="GeetRatna Logo" class="logo" loading="lazy" width="90" height="90">
-            
+            <a href="https://geetratna.github.io" title="GeetRatna - Marathi Christian Songs">
+                <img src="https://yt3.googleusercontent.com/s2WhsqUUbRa1jh8S99_MR_l6fC68GqcL9LpSt-cwqrxzrLAd6R8gKVn2mOYXJ6JhJimWzW6X=s160-c-k-c0x00ffffff-no-rj" alt="GeetRatna Logo" class="logo" loading="lazy" width="90" height="90">
+            </a>
             <h1>GeetRatna | गीतरत्न</h1>
             <p class="header-subtitle">मराठी ख्रिश्चन भजन आणि आराधना गीतांचा खजिना</p>
         </div>
@@ -937,8 +954,7 @@
             <a href="https://geetratna.github.io/marathi-worship-songs">आराधना गीत</a>
             <span aria-current="page">क्षमा तुला मागतो</span>
         </nav>
-        
-        
+      
         
         <!-- Site Navigation -->
         <div class="site-navigation">
@@ -977,7 +993,7 @@
             
             <!-- Artist Highlight -->
             <div class="artist-highlight">
-                <img src="https://i.ytimg.com/vi/McvC8h7-5WE/maxresdefault.jpg" alt="BR Kiran Kale" class="artist-photo">
+                <img src="https://i.ytimg.com/vi/McvC8h7-5WE/maxresdefault.jpg" alt="BR Kiran Kale" class="artist-photo" loading="lazy">
                 <div class="artist-info">
                     <h3>BR Kiran Kale</h3>
                     <p>प्रसिद्ध मराठी ख्रिश्चन गायक आणि संगीतकार. 50+ भजनांचे निर्माता आणि 500,000+ YouTube सदस्यांसह एक प्रभावशाली आध्यात्मिक कलाकार.</p>
@@ -1097,7 +1113,7 @@ Cukalelyā tyā...
             </div>
             
             <div class="author-box">
-                <img src="https://i.ytimg.com/vi/McvC8h7-5WE/maxresdefault.jpg" alt="Bankar Anand" class="author-avatar">
+                <img src="https://i.ytimg.com/vi/McvC8h7-5WE/maxresdefault.jpg" alt="Bankar Anand" class="author-avatar" loading="lazy">
                 <div class="author-info">
                     <h4>Bankar Anand</h4>
                     <p>बनकर आनंद GeetRatna चे संस्थापक आहेत, जे मराठी ख्रिश्चन भजनांना समर्पित एक मंच आहे. ते 10+ वर्षांपासून मराठी भाषिक ख्रिश्चन समुदायाला आध्यात्मिक संगीताशी जोडत आहेत.</p>
@@ -1196,8 +1212,9 @@ Cukalelyā tyā...
     
     <footer>
         <div class="footer-content">
-            <img src="https://yt3.googleusercontent.com/s2WhsqUUbRa1jh8S99_MR_l6fC68GqcL9LpSt-cwqrxzrLAd6R8gKVn2mOYXJ6JhJimWzW6X=s160-c-k-c0x00ffffff-no-rj" alt="GeetRatna Logo" class="logo" loading="lazy" width="90" height="90">
-            
+            <a href="https://geetratna.github.io" title="GeetRatna - Marathi Christian Songs">
+                <img src="https://yt3.googleusercontent.com/s2WhsqUUbRa1jh8S99_MR_l6fC68GqcL9LpSt-cwqrxzrLAd6R8gKVn2mOYXJ6JhJimWzW6X=s160-c-k-c0x00ffffff-no-rj" alt="GeetRatna Logo" class="footer-logo" loading="lazy" width="70" height="70">
+            </a>
             <h3 class="footer-title">GeetRatna | गीतरत्न</h3>
             <p class="footer-subtitle">मराठी ख्रिश्चन भजनांचा खजिना</p>
             
