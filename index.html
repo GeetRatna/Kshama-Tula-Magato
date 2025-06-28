@@ -15,15 +15,18 @@
     <meta property="og:url" content="https://geetratna.github.io/Kshama-Tula-Magato/">
     <meta property="og:title" content="क्षमा तुला मागतो - पूर्ण भजन बोल | Kshama Tula Magto Lyrics">
     <meta property="og:description" content="BR Kiran Kale यांचा 'क्षमा तुला मागतो' भजनाचे पूर्ण बोल">
-    <meta property="og:image" content="https://yt3.googleusercontent.com/s2WhsqUUbRa1jh8S99_MR_l6fC68GqcL9LpSt-cwqrxzrLAd6R8gKVn2mOYXJ6JhJimWzW6X=s160-c-k-c0x00ffffff-no-rj">
+    <meta property="og:image" content="https://geetratna.github.io/images/geetratna-logo.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://geetratna.github.io/Kshama-Tula-Magato/">
     <meta property="twitter:title" content="क्षमा तुला मागतो - पूर्ण भजन बोल | Kshama Tula Magto Lyrics">
     <meta property="twitter:description" content="BR Kiran Kale यांचा 'क्षमा तुला मागतो' भजनाचे पूर्ण बोल">
-    <meta property="twitter:image" content="https://yt3.googleusercontent.com/s2WhsqUUbRa1jh8S99_MR_l6fC68GqcL9LpSt-cwqrxzrLAd6R8gKVn2mOYXJ6JhJimWzW6X=s160-c-k-c0x00ffffff-no-rj">
+    <meta property="twitter:image" content="https://geetratna.github.io/images/geetratna-logo.jpg">
 
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4836444185528882" crossorigin="anonymous"></script>
+    
     <!-- Google Verification -->
     <meta name="google-site-verification" content="u4ZZuKr8I06OdyTRj1P7O5dE0OD_EygN2n1N006tVqc" />
     
@@ -46,141 +49,227 @@
             "name": "GeetRatna",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://yt3.googleusercontent.com/s2WhsqUUbRa1jh8S99_MR_l6fC68GqcL9LpSt-cwqrxzrLAd6R8gKVn2mOYXJ6JhJimWzW6X=s160-c-k-c0x00ffffff-no-rj"
+                "url": "https://geetratna.github.io/images/geetratna-logo.jpg"
             }
         }
     }
     </script>
 
     <style>
+        /* Base Styles */
+        :root {
+            --primary-color: #8B0000;
+            --secondary-color: #d4af37;
+            --text-color: #333;
+            --light-bg: #f8f8f8;
+        }
+        
         body {
-            font-family: 'Noto Sans Devanagari', sans-serif;
+            font-family: 'Noto Sans Devanagari', 'Arial', sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            color: #333;
-            background: #f8f8f8;
+            color: var(--text-color);
+            background: var(--light-bg);
         }
+        
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 15px;
         }
+        
+        /* Header Styles */
         header {
-            background: linear-gradient(135deg, #8B0000, #6B0000);
+            background: linear-gradient(135deg, var(--primary-color), #6B0000);
             color: white;
             padding: 20px 0;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+        
         .logo {
-            width: 80px;
-            height: 80px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
-            border: 3px solid #d4af37;
+            border: 3px solid var(--secondary-color);
+            object-fit: cover;
         }
+        
         h1 {
             font-size: 1.8rem;
             margin: 10px 0 5px;
         }
+        
         .header-subtitle {
             font-size: 0.9rem;
             opacity: 0.9;
         }
+        
+        /* Main Content Styles */
         .lyrics-section {
             margin: 25px 0;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
+        
         .lyrics {
             white-space: pre-line;
             text-align: center;
             font-size: 1.1rem;
             line-height: 1.8;
         }
+        
         .transliteration {
             font-style: italic;
             color: #555;
             text-align: center;
             margin-top: 10px;
         }
+        
         .section-title {
-            color: #A52A2A;
-            border-bottom: 1px solid #ddd;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
             padding-bottom: 5px;
             margin: 25px 0 15px;
-        }
-        .video-container {
             text-align: center;
-            margin: 25px 0;
         }
-        .video-btn {
+        
+        /* Button Styles */
+        .btn {
             display: inline-block;
-            background: #8B0000;
+            background: var(--primary-color);
             color: white;
-            padding: 10px 15px;
+            padding: 10px 20px;
             text-decoration: none;
             border-radius: 4px;
             margin: 5px;
             transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
         }
-        .video-btn:hover {
+        
+        .btn:hover {
             background: #6B0000;
+            transform: translateY(-2px);
         }
+        
+        .btn-secondary {
+            background: var(--secondary-color);
+            color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #c9a227;
+        }
+        
+        /* Action Buttons Container */
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        /* About Sections */
+        .about-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        /* Footer Styles */
         footer {
             background: #222;
             color: white;
             text-align: center;
             padding: 30px 20px;
             margin-top: 30px;
-            border-top: 4px solid #d4af37;
+            border-top: 4px solid var(--secondary-color);
         }
+        
         .footer-logo {
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
-            border: 2px solid #d4af37;
+            border: 2px solid var(--secondary-color);
+            object-fit: cover;
             margin-bottom: 10px;
         }
+        
         .footer-title {
             font-size: 1.3rem;
             margin: 5px 0;
         }
+        
+        .footer-links {
+            margin: 15px 0;
+        }
+        
         .footer-links a {
-            color: #d4af37;
+            color: var(--secondary-color);
             text-decoration: none;
             margin: 0 10px;
+            transition: all 0.3s;
         }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
         .copyright {
             margin-top: 15px;
             font-size: 0.8rem;
             color: #aaa;
         }
         
+        /* Responsive Styles */
         @media (max-width: 600px) {
             .container {
                 padding: 10px;
             }
+            
             h1 {
                 font-size: 1.5rem;
             }
+            
+            .logo {
+                width: 80px;
+                height: 80px;
+            }
+            
+            .btn {
+                padding: 8px 15px;
+                font-size: 0.9rem;
+            }
         }
         
-        /* Breadcrumb Navigation */
-        .breadcrumb {
-            padding: 8px 15px;
-            margin-bottom: 20px;
-            list-style: none;
-            background-color: #f5f5f5;
-            border-radius: 4px;
-        }
-        .breadcrumb li {
-            display: inline;
-        }
-        .breadcrumb li+li:before {
-            padding: 0 5px;
-            color: #ccc;
-            content: "/\00a0";
-        }
-        .breadcrumb a {
-            color: #8B0000;
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                color: black;
+                font-size: 12pt;
+            }
+            
+            .no-print {
+                display: none;
+            }
+            
+            .lyrics-section {
+                box-shadow: none;
+                border: 1px solid #ddd;
+                page-break-inside: avoid;
+            }
+            
+            footer {
+                border-top: 1px solid #ccc;
+            }
         }
     </style>
 </head>
@@ -194,20 +283,13 @@
     </header>
 
     <main class="container">
-        <!-- Breadcrumb Navigation -->
-        <ul class="breadcrumb">
-            <li><a href="https://geetratna.github.io">होम</a></li>
-            <li><a href="https://geetratna.github.io/marathi-christian-bhajans">मराठी भजने</a></li>
-            <li class="active">क्षमा तुला मागतो</li>
-        </ul>
-
         <article>
             <h1>क्षमा तुला मागतो</h1>
-            <p><em>BR Kiran Kale यांचे भजन</em></p>
+            <p><em>BR Kiran Kale यांचे भजन | Artist: Anand Bankar</em></p>
             
             <div class="lyrics-section">
                 <h2 class="section-title">मराठी भजन बोल</h2>
-                <div class="lyrics">
+                <div class="lyrics" id="lyrics-content">
 क्षमा तुला मागतो
 
 तव चरणाशी आज बसोनी 
@@ -257,21 +339,32 @@ Cukalelyā tyā...
                 </div>
             </div>
 
-            <div class="video-container">
-                <a href="https://youtu.be/McvC8h7-5WE" class="video-btn">YouTube वर पहा</a>
-                <a href="https://geetratna.github.io/download/kshama-tula-magto-mp3" class="video-btn">MP3 डाउनलोड</a>
+            <div class="action-buttons">
+                <a href="https://youtu.be/McvC8h7-5WE" class="btn">▶ YouTube Video</a>
+                <button onclick="shareLyrics()" class="btn btn-secondary">📤 Share Lyrics</button>
+                <button onclick="downloadLyrics()" class="btn btn-secondary">📥 Download Lyrics</button>
             </div>
 
-            <div class="lyrics-section">
-                <h2 class="section-title">भजनाबद्दल</h2>
-                <p>हा भजन BR Kiran Kale यांनी रचला आहे. येशू ख्रिस्ताच्या क्षमेच्या विषयावर आधारित हे भजन मराठी ख्रिश्चन समुदायात खूप लोकप्रिय आहे.</p>
+            <div class="about-section">
+                <h2 class="section-title">About GeetRatna</h2>
+                <p>GeetRatna is a platform dedicated to preserving and sharing Marathi Christian bhajans. Our mission is to make these spiritual songs accessible to everyone.</p>
                 
-                <h3 class="section-title">संबंधित भजने</h3>
-                <ul>
-                    <li><a href="https://geetratna.github.io/tujhya-premat-maj-vasalo">तुझ्या प्रेमात मी वसलो</a></li>
-                    <li><a href="https://geetratna.github.io/he-prabhu-yeshu">हे प्रभु येशू तुझे नाव</a></li>
-                    <li><a href="https://geetratna.github.io/majhya-prabhu-tu-ekla">माझ्या प्रभू तू एकला</a></li>
-                </ul>
+                <h3 class="section-title">About Anand Bankar</h3>
+                <p>Anand Bankar is a renowned Marathi Christian vocalist who has beautifully rendered this bhajan composed by BR Kiran Kale.</p>
+            </div>
+
+            <!-- Google AdSense -->
+            <div class="ad-container no-print">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4836444185528882" crossorigin="anonymous"></script>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-4836444185528882"
+                     data-ad-slot="1234567890"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
             </div>
         </article>
     </main>
@@ -283,25 +376,98 @@ Cukalelyā tyā...
             <p>मराठी ख्रिश्चन भजनांचा खजिना</p>
             
             <div class="footer-links">
-                <a href="https://geetratna.github.io">होम</a>
-                <a href="https://geetratna.github.io/sitemap.xml">साईटमॅप</a>
-                <a href="https://geetratna.github.io/contact">संपर्क</a>
+                <a href="https://geetratna.github.io">Home</a>
+                <a href="https://geetratna.github.io/bhajans">Bhajans</a>
+                <a href="https://geetratna.github.io/about">About</a>
+                <a href="https://geetratna.github.io/contact">Contact</a>
             </div>
             
             <div class="copyright">
-                &copy; 2025 GeetRatna. सर्व हक्क राखीव.<br>
-                सर्व भजने आणि माहिती केवळ धार्मिक प्रसारणासाठी.
+                &copy; 2025 GeetRatna. All Rights Reserved.<br>
+                All bhajans and content are for spiritual purposes only.
             </div>
         </div>
     </footer>
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
+        // Share Lyrics Function
+        function shareLyrics() {
+            const lyrics = document.getElementById('lyrics-content').innerText;
+            const title = document.title;
+            const url = window.location.href;
+            
+            if (navigator.share) {
+                navigator.share({
+                    title: title,
+                    text: lyrics,
+                    url: url
+                }).catch(err => {
+                    console.log('Error sharing:', err);
+                    fallbackShare(lyrics, title, url);
+                });
+            } else {
+                fallbackShare(lyrics, title, url);
+            }
+        }
+        
+        function fallbackShare(lyrics, title, url) {
+            const shareText = `${title}\n\n${lyrics}\n\n${url}`;
+            prompt('Copy the lyrics to share:', shareText);
+        }
+        
+        // Download Lyrics as PDF
+        function downloadLyrics() {
+            const lyrics = document.getElementById('lyrics-content').innerText;
+            const title = document.title;
+            const url = window.location.href;
+            const logo = 'https://geetratna.github.io/images/geetratna-logo.jpg';
+            
+            // Create a printable version
+            const printWindow = window.open('', '_blank');
+            printWindow.document.write(`
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>${title}</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+                        .header { text-align: center; margin-bottom: 20px; }
+                        .logo { width: 80px; height: 80px; }
+                        .footer { margin-top: 30px; text-align: center; font-size: 0.8em; color: #666; }
+                        .lyrics { white-space: pre-line; }
+                    </style>
+                </head>
+                <body>
+                    <div class="header">
+                        <img src="${logo}" class="logo" alt="GeetRatna Logo">
+                        <h1>${title}</h1>
+                        <p>From GeetRatna - Marathi Christian Bhajans</p>
+                    </div>
+                    
+                    <div class="lyrics">
+                        ${lyrics}
+                    </div>
+                    
+                    <div class="footer">
+                        <p>Downloaded from: ${url}</p>
+                        <p>&copy; ${new Date().getFullYear()} GeetRatna. All rights reserved.</p>
+                    </div>
+                </body>
+                </html>
+            `);
+            
+            printWindow.document.close();
+            printWindow.focus();
+            setTimeout(() => {
+                printWindow.print();
+            }, 500);
+        }
+        
+        // Google Analytics
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-XXXXXXXXXX');
     </script>
 </body>
-    </html>
+</html>
